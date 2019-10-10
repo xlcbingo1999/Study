@@ -1,0 +1,51 @@
+<!---serif
+带衬线字体，笔画结尾有特殊的装饰线或衬线。
+例如： Lucida Bright, Lucida Fax, Palatino, "Palatino Linotype", Palladio, "URW Palladio", serif.
+sans-serif
+无衬线字体，即笔画结尾是平滑的字体。
+例如， "Open Sans", "Fira Sans", "Lucida Sans", "Lucida Sans Unicode", "Trebuchet MS", "Liberation Sans", "Nimbus Sans L", sans-serif.
+monospace
+等宽字体，即字体中每个字宽度相同。
+例如， "Fira Mono", "DejaVu Sans Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Lucida Console", monospace.
+cursive
+草书字体。这种字体有的有连笔，有的还有特殊的斜体效果。因为一般这种字体都有一点连笔效果，所以会给人一种手写的感觉。
+例如， "Brush Script MT", "Brush Script Std", "Lucida Calligraphy", "Lucida Handwriting", "Apple Chancery", cursive.
+fantasy
+Fantasy字体主要是那些具有特殊艺术效果的字体。
+E.g. Papyrus, Herculanum, Party LET, Curlz MT, Harrington, fantasy.-->
+
+<!--
+    后代选择器/子元素选择器/相邻兄弟选择器
+    table.company td > p ：上面的选择器会选择作为 td 元素子元素的所有 p 元素，这个 td 元素本身从 table 元素继承，该 table 元素有一个包含 company 的 class 属性。
+    这个规则会把第一个 h1 下面的两个 strong 元素变为红色，但是第二个 h1 中的 strong 不受影响：
+        <h1>This is <strong>very</strong> <strong>very</strong> important.</h1>
+        <h1>This is <em>really <strong>very</strong></em> important.</h1>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Life</title>
+    <style>
+    .fancy /* ID属性不要用数字作为开头，数字开头的ID在部分浏览器中无法使用*/
+    {
+        color: red;
+        text-align: center;
+        font-family: cursive;
+    }
+    p.fancy
+    {
+        color:yellow;
+        font-family: fantasy;
+    }
+    </style>
+</head>
+<body>
+    <h1 class="fancy">Life</h1>
+    <p class= "fancy"><em><strong>Hello</strong></em><strong>HELLO</strong></p> <!-- 使用id则根据id使用-->
+    <p class= "fancy">Your name</p> <!-- 跳出了父类的要求 -->
+</body>
+</html>

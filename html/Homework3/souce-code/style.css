@@ -1,0 +1,300 @@
+
+#at-plus-container{
+	position:relative;  
+	width:800px;
+	height:100%;
+	margin-left:auto; 
+	margin-right:auto; 
+}
+
+#bottom-positioner
+{
+    width:500px;
+    height: 700px;
+    /* padding-left: 25%; */
+    overflow: hidden;
+}
+
+
+#info-bar /*此div将显示为块级元素，此元素前后会带有换行符。*/
+{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 50%;
+    bottom: 18%;
+    border-radius: 50%;
+
+    background-color: gray;
+    opacity: 0; /*初始状态不显示 */
+    -webkit-transition:all 0.5s ease-in 2ms;
+	-moz-transition:all 0.5s ease-in 2ms;
+	-o-transition:all 0.5s ease-in 2ms;
+    transition:all 0.5s ease-in 2ms;
+    /*保持兼容性，其拆分方式为：
+    [ transition-property ] || [ transition-duration ] 
+    || [ transition-timing-function ] || [ transition-delay ]*/
+}
+
+#button:hover #info-bar
+{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 362px;
+    bottom: 192px;
+    border-radius: 50%;
+
+    background-color: rgb(107, 105, 105);
+    opacity: 1;
+}
+
+.user
+{
+    display: inline-block;
+    position: absolute;
+    top: 4%;
+    left: 32%;
+}
+
+.user span
+{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.comment
+{
+    display: inline-block;
+    position: absolute;
+    bottom: 41%;
+    left: 28%;
+}
+
+.comment span 
+{
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.mine
+{
+    display: inline-block;
+}
+
+.mine span
+{
+    position: absolute;
+    display: inline-block;
+    margin-left: 5px;
+    color: #079E6E;
+    bottom: 7px;
+    font-weight: bold;
+}
+
+.posted
+{
+    position: absolute;
+    left: 15%;
+    bottom: 18%;
+}
+
+.like
+{
+    position: absolute;
+    left: 50%;
+    bottom: 17%;
+}
+
+/* #control-ring-container
+{
+    width: 200px;
+    bottom: 18%;
+     position: relative; 
+} */
+
+ul
+{
+    list-style-type: none;  /* 无标记 */
+}
+
+.mask
+{
+    position: absolute;
+    left: 50%;
+    bottom: 18%;
+    background-size: 0%;
+    background: url(assets/images/nomask.png) no-repeat 50% 50% gray;
+    opacity: 0;
+    -webkit-transition:all 0.5s ease-in 2ms;
+	-moz-transition:all 0.5s ease-in 2ms;
+	-o-transition:all 0.5s ease-in 2ms;
+    transition:all 0.5s ease-in 2ms;
+}
+
+#button:hover .mask
+{
+    left: 340px;
+    bottom: 170px;
+    background-size: 40%;
+    background: url(assets/images/nomask.png) no-repeat 50% 50% gray;
+
+    opacity: 1;
+}
+
+.history
+{
+    left: 50%;
+    bottom: 18%;
+    background-size: 0%;
+    background: url(assets/images/history.png) no-repeat 50% 50% gray;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition:all 0.5s ease-in 2ms;
+	-moz-transition:all 0.5s ease-in 2ms;
+	-o-transition:all 0.5s ease-in 2ms;
+    transition:all 0.5s ease-in 2ms;
+}
+
+#button:hover .history
+{
+    left: 325px;
+    bottom: 125px;
+    background-size: 40%;
+    background: url(assets/images/history.png) no-repeat 50% 50% gray;
+
+    opacity: 1;
+}
+
+.message
+{
+    left: 50%;
+    bottom: 18%;
+    background-size: 0%;
+    background: url(assets/images/message.png) no-repeat 50% 50% gray;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition:all 0.5s ease-in 2ms;
+	-moz-transition:all 0.5s ease-in 2ms;
+	-o-transition:all 0.5s ease-in 2ms;
+    transition:all 0.5s ease-in 2ms;    
+}
+
+#button:hover .message
+{
+    left: 340px;
+    bottom: 80px;
+    background-size: 40%;
+    background: url(assets/images/message.png) no-repeat 50% 50% gray;
+
+    opacity: 1;
+}
+
+.unread
+{
+    display: inline-block;
+    position: absolute;
+    left: 24px;
+    bottom: 20px;
+
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+
+    background-color: red;
+    color:white;
+    -webkit-transition:all 0.5s ease-in 2ms;
+	-moz-transition:all 0.5s ease-in 2ms;
+	-o-transition:all 0.5s ease-in 2ms;
+    transition:all 0.5s ease-in 2ms;
+}
+
+
+.setting
+{
+    left: 50%;
+    bottom: 18%;
+    background-size: 0%;
+    background: url(assets/images/setting.png) no-repeat 50% 50% gray;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition:all 0.5s ease-in 2ms;
+	-moz-transition:all 0.5s ease-in 2ms;
+	-o-transition:all 0.5s ease-in 2ms;
+    transition:all 0.5s ease-in 2ms;    
+}
+
+#button:hover .setting
+{
+    left: 382px;
+    bottom: 61px;
+    background-size: 40%;
+    background: url(assets/images/setting.png) no-repeat 50% 50% gray;
+
+    opacity: 1;
+}
+
+.sign
+{
+    left: 50%;
+    bottom: 18%;
+    background-size: 0%;
+    background: url(assets/images/signin.png) no-repeat 50% 50% gray;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition:all 0.5s ease-in 2ms;
+	-moz-transition:all 0.5s ease-in 2ms;
+	-o-transition:all 0.5s ease-in 2ms;
+    transition:all 0.5s ease-in 2ms;  
+}
+
+#button:hover .sign
+{
+    left: 430px;
+    bottom: 64px;
+    background-size: 40%;
+    background: url(assets/images/signin.png) no-repeat 50% 50% gray;
+
+    opacity: 1;
+}
+
+.button
+{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.apb
+{
+    position: absolute;
+    background: url(assets/images/atplus_white.png) no-repeat 50% 50% #7171C6;
+    background-size: 70%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    left:50%;
+    bottom: 18%;
+    opacity: 0.5;
+    -webkit-transition:all 0.5s ease-in 2ms;
+	-moz-transition:all 0.5s ease-in 2ms;
+	-o-transition:all 0.5s ease-in 2ms;
+    transition:all 0.5s ease-in 2ms;   
+}
+
+#button:hover .apb /* 这里的顺序不能调整 */
+{
+    background: url(assets/images/atplus_green.png) no-repeat 50% 50% rgba(48, 63, 159, 1);
+    background-size: 70%;
+    transform: scale(1.5);
+    opacity: 1;
+}

@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1570638458 source:d:\work and study\code_work\data_struct\chapter06\listkeepcurrent\listlist.cpp
+	"ListList.hpp"
+	"Define.hpp"
+
+1570632705 d:\work and study\code_work\data_struct\chapter06\listkeepcurrent\listlist.hpp
+	"Define.hpp"
+	"Node.h"
+
+1570581849 d:\work and study\code_work\data_struct\chapter06\listkeepcurrent\define.hpp
+	<iostream>
+
+1569766135 d:\work and study\code_work\data_struct\chapter06\listkeepcurrent\node.h
+	"Define.hpp"
+
+1569759495 source:d:\work and study\code_work\data_struct\chapter06\listkeepcurrent\node.cpp
+	"Node.h"
+
+1570638460 source:d:\work and study\code_work\data_struct\chapter06\listkeepcurrent\main.cpp
+	<iostream>
+	"ListList.hpp"
+	"Define.hpp"
+

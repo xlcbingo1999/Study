@@ -1,0 +1,15 @@
+#include "Move.hpp"
+
+using namespace std;
+
+Move::Move()
+{
+    row = 3;
+    col = 3;
+}
+
+Move::Move(int r , int c)
+{
+    row = r;
+    col = c;
+}

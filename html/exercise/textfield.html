@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Life</title>
+</head>
+<body>
+    <form name="input" action="html_form_action.php" method="get">
+    <fieldset>
+    <legend>Personal information:</legend>
+        First name: <input type="text" name="firstname">
+        <br>
+        SEX:<input type="radio" name="sex" value="male">Male
+        <input type="radio" name="sex" value="female">Female
+        <br>
+        Special <input type="checkbox" name="vehicle" value="Bike">Bike
+        <input type="checkbox" name="vehicle" value="Car">Car
+        <br>
+        Age <select name = "age">
+            <option value="-">-</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+        </select> <!--自由选择菜单-->
+        <br>        
+        Age <select name = "age">
+            <option value="-"selected >-</option>
+            <option value="13">13</option>                <option value="14">14</option>
+        </select> <!--预选菜单-->
+        <br>
+        Your thing:<textarea rows="10" cols="30">helloworlda&#768O&#771&trade
+        </textarea>
+        Password: <input type="password" name="lastname">
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </fieldset>
+    </form>
+</body>
+</html>

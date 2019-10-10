@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1569759495 source:d:\work and study\code_work\data_struct\chapter06\listlist\node.cpp
+	"Node.h"
+
+1569766135 d:\work and study\code_work\data_struct\chapter06\listlist\node.h
+	"Define.hpp"
+
+1570581849 d:\work and study\code_work\data_struct\chapter06\listlist\define.hpp
+	<iostream>
+
+1570583888 source:d:\work and study\code_work\data_struct\chapter06\listlist\listlist.cpp
+	"ListList.hpp"
+	"Define.hpp"
+
+1570551843 d:\work and study\code_work\data_struct\chapter06\listlist\listlist.hpp
+	"Define.hpp"
+	"Node.h"
+
+1570583924 source:d:\work and study\code_work\data_struct\chapter06\listlist\main.cpp
+	<iostream>
+	"ListList.hpp"
+	"Define.hpp"
+

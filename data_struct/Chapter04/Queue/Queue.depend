@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1569555681 source:d:\work and study\code_work\data_struct\chapter04\queue\main.cpp
+	"NodeExtendedQueue.h"
+	"define.h"
+
+1569553240 d:\work and study\code_work\data_struct\chapter04\queue\nodeextendedqueue.h
+	"Node.h"
+	"define.h"
+	"NodeQueue.h"
+
+1569552624 d:\work and study\code_work\data_struct\chapter04\queue\node.h
+	"define.h"
+
+1569554240 d:\work and study\code_work\data_struct\chapter04\queue\define.h
+	<iostream>
+	<cctype>
+	<cstring>
+
+1569553288 d:\work and study\code_work\data_struct\chapter04\queue\nodequeue.h
+	"Node.h"
+	"define.h"
+
+1569552628 source:d:\work and study\code_work\data_struct\chapter04\queue\node.cpp
+	"Node.h"
+	"define.h"
+
+1569554122 source:d:\work and study\code_work\data_struct\chapter04\queue\nodeextendedqueue.cpp
+	"NodeExtendedQueue.h"
+
+1569554892 source:d:\work and study\code_work\data_struct\chapter04\queue\nodequeue.cpp
+	"NodeQueue.h"
+

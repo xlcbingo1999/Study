@@ -1,0 +1,55 @@
+<!--href-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Life</title>
+</head>
+<body>
+   <table  border="1" cellspacing="1" cellpadding="10" bgcolor="#cc5ccc" align="center"> 
+       <!-- broder是边框！如果不需要，则border可以不写-->
+       <!--cellspacing是-->
+       <!--cellpadding是表格的线和字符之间的距离-->
+       <!--bgcolor是背景颜色-->
+
+       <thead> <!-- 页眉 -->
+           <tr>
+               <th> Title </th>
+               <th> Price </th>
+               <th colspan="2"> Available </th> <!-- 这个可以使得table变成两列，但是下面没有对应值的地方不能显示，需要加上空-->
+           </tr>
+       </thead>
+       <tbody> <!-- 正文 -->
+           <tr>
+               <td> CSS Demystified </td>
+               <td> $29 </td>
+               <td> 16 </td>
+               <td> 26</td>
+           </tr>
+           <tr>
+               <td> Mastering JavaScript </td>
+               <td> $35 </td>
+               <td> 10 </td>
+               <td></td>
+           </tr>
+           <tr>
+               <td> HTML5: An introduction </td>
+               <td> $35 </td>
+               <td> 6 </td>
+               <td></td>
+           </tr>
+       </tbody>
+       <tfoot> <!-- 页脚 -->
+           <tr>
+               <td> Todal </td>
+               <td></td>
+               <td> 32 </td>
+               <td> 26 </td>
+           </tr>
+       </tfoot>
+   </table>
+</body>
+</html>

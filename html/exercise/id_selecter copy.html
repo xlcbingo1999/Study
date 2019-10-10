@@ -1,0 +1,74 @@
+<!---serif
+带衬线字体，笔画结尾有特殊的装饰线或衬线。
+例如： Lucida Bright, Lucida Fax, Palatino, "Palatino Linotype", Palladio, "URW Palladio", serif.
+sans-serif
+无衬线字体，即笔画结尾是平滑的字体。
+例如， "Open Sans", "Fira Sans", "Lucida Sans", "Lucida Sans Unicode", "Trebuchet MS", "Liberation Sans", "Nimbus Sans L", sans-serif.
+monospace
+等宽字体，即字体中每个字宽度相同。
+例如， "Fira Mono", "DejaVu Sans Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Lucida Console", monospace.
+cursive
+草书字体。这种字体有的有连笔，有的还有特殊的斜体效果。因为一般这种字体都有一点连笔效果，所以会给人一种手写的感觉。
+例如， "Brush Script MT", "Brush Script Std", "Lucida Calligraphy", "Lucida Handwriting", "Apple Chancery", cursive.
+fantasy
+Fantasy字体主要是那些具有特殊艺术效果的字体。
+E.g. Papyrus, Herculanum, Party LET, Curlz MT, Harrington, fantasy.-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Life</title>
+    <style>
+    #para1 /* ID属性不要用数字作为开头，数字开头的ID在部分浏览器中无法使用*/
+    {
+        color: red;
+        text-align: center;
+        font-family: cursive;
+    }
+    #para1 strong
+    /*假如你只希望para1中的strong改变的样式*/
+    {
+        color:yellow;
+        text-align: center;
+        font-family: cursive;
+        font-weight: 900;
+    }
+    #para1 > strong/* 假如你只希望para1中的下面第一级的strong改变样式 */
+    {
+        color:aqua;
+        text-align: center;
+        font-family: fantasy;
+        font-weight: 500;
+    }
+    #para2 
+    {
+        color:blueviolet;
+        font-size:100px;
+        font-weight: 900;
+    }
+    #para3 
+    {
+        color:blueviolet;
+        font-size:100px;
+    }
+    body{
+        font-family:  fantasy;
+    }
+    p  {
+     font-family: Times, "Times New Roman", serif;
+     }
+
+    </style>
+</head>
+<body>
+    <h1 id="para2">Life</h1>
+    <h1 id="para3">Life</h1>
+    <p id= "para1"><em><strong>Hello</strong></em><strong>HELLO</strong></p> <!-- 使用id则根据id使用-->
+    <p id= "para1"></p>
+    <p>Your name</p> <!-- 跳出了父类的要求 -->
+</body>
+</html>

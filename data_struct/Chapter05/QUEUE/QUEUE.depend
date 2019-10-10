@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1569727124 source:d:\work and study\code_work\data_struct\chapter05\queue\main.cpp
+	<iostream>
+	"MyQueens.hpp"
+
+1569726928 d:\work and study\code_work\data_struct\chapter05\queue\queens.hpp
+
+1569726530 source:d:\work and study\code_work\data_struct\chapter05\queue\queens.cpp
+	<iostream>
+	"Queens.hpp"
+
+1569727153 d:\work and study\code_work\data_struct\chapter05\queue\myqueens.hpp
+
+1569727441 source:d:\work and study\code_work\data_struct\chapter05\queue\myqueens.cpp
+	<iostream>
+	"MyQueens.hpp"
+

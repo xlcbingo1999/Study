@@ -1,0 +1,366 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="image/pie_icon.gif">
+<link href="https://fonts.font.im/css?family=Jura" rel="stylesheet">
+<title>Index</title>
+<style>
+#first 
+{ 
+    width:800px; 
+    height:550px; 
+    margin:0 auto; 
+    position:relative; 
+    font-family:verdana, arial, sans-serif; 
+
+  }
+#first #second 
+{ 
+    position:absolute; 
+    right:10px; 
+    top:0; 
+    height:550px; 
+    width:92px; 
+    overflow:hidden; 
+    text-align:center; 
+    z-index:500; 
+}
+#first #second div 
+{ 
+    width:92px; 
+    height:550px; 
+    position:relative; 
+    padding-top:10px; 
+}
+#first #second div ul 
+{ 
+    padding:0; 
+    margin:0; 
+    list-style:none; 
+    width:92px; 
+    height:550px 
+}
+#first #second div ul li 
+{ 
+    float:left; 
+    padding:1px 0; 
+    width:92px; 
+    height:69px; 
+}
+#first #second div ul li a 
+{ 
+    display:block; 
+    width:92px; 
+    height:69px; 
+    float:left;
+}
+#first #second div ul li a b 
+{ 
+    display:none; 
+}
+#first #second div ul li a.previous 
+{ 
+    background:url(double-click/up.png) no-repeat center center; 
+}
+#first #second div ul li a.next 
+{ 
+    background:url(double-click/down.png) no-repeat center center; 
+}
+#first #second div ul li a img 
+{ 
+    opacity:0.7; 
+    filter:alpha(opacity=0.7); 
+    display:block; 
+    width:92px; 
+    height:69px; 
+    border:0; 
+}
+#first #second div ul li a img:hover 
+{ 
+    opacity:1; 
+    filter:alpha(opacity=1)	
+}
+#first #second div ul li img.blank 
+{ 
+    margin:0 auto; 
+    padding-top:11px; 
+}
+#first #second div ul li a:focus 
+{ 
+    outline:0; 
+}
+#first #fullsize 
+{ 
+    position:absolute; 
+    left:0; 
+    top:0; 
+    height:550px; 
+    width:750px; 
+    overflow:hidden; 
+    text-align:center; 
+    z-index:200; 
+}
+#first #fullsize div 
+{ 
+    width:750px; 
+    height:700px; 
+    padding-top:70px; 
+    position:relative; 
+    overflow:hidden;
+}
+
+#first #fullsize div a img 
+{ 	
+    transition:all .4s;	
+    -moz-transition:all .4s;	
+    -webkit-transition:all .4s;	
+    -o-transition:all .4s;
+    clear:both; 
+    display:block;
+    margin:0 auto; 
+    border:1px solid #eee; 
+    width:480px; 
+    height:360px; 
+    position:relative; 
+    padding:10px; 
+}
+#first #fullsize div a img:hover 
+{ 
+    transform:scale(1.1);	
+}
+#first #fullsize div h1 
+{ 
+    padding:10px 0 0 0; 
+    margin:0; 
+    font-size:18px; 
+}
+#first #fullsize div p 
+{ 
+    padding:5px 135px; 
+    margin:0; 
+    font-size:12px; 
+    line-height:18px; 
+}
+.icon-user
+{
+    border-radius: 100%;
+    width: 2em;
+    height: 2em;
+    background-color: currentColor;
+    position: relative;
+    margin:30px auto;
+    transition:all .4s;	
+    -moz-transition:all .4s;	
+    -webkit-transition:all .4s;	
+    -o-transition:all .4s;
+}
+.icon-user:hover
+{
+  transform:scale(1.1);	
+}
+.icon-user::after
+{
+    content: "";
+    position: absolute;
+    top:98%;
+    left: -0.5em;
+    border-radius: 1em;
+    background-color: currentColor;
+    height: 1.8em;
+    width: 3em;
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.2em;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    transition:all .4s;	
+    -moz-transition:all .4s;	
+    -webkit-transition:all .4s;	
+    -o-transition:all .4s;
+}
+.icon-user::after:hover
+{
+  transform:scale(1.1);	
+}
+#center
+{
+  text-align:center; 
+  font-family: 'Jura', sans-serif;
+}
+
+</style>
+</head>
+<body style = "background-image:url(double-click/20150609045138_VdPmG.jpeg.jpg)">
+<div id="first">
+  <div id="second">
+    <div id="slide1">
+      <ul>
+        <li><img class="blank" src="double-click/upx.png" alt="up"></li>
+        <li><a href="#pic1"><img src="double-click/pic1.jpg" alt="Grandma's Lemon Meringue Pie"></a></li>
+        <li><a href="#pic2"><img src="double-click/pic2.jpg" alt="Wang's Chocolate"></a></li>
+        <li><a href="#pic3"><img src="double-click/pic3.jpg" alt="Cake"></a></li>
+        <li><a href="#pic4"><img src="double-click/pic4.jpg" alt="Sandwich"></a></li>
+        <li><a href="#pic5"><img src="double-click/pic5.jpg" alt="Green lizard"></a></li>
+        <li><a href="#slide2" class="next"><b>Next</b></a></li>
+      </ul>
+    </div>
+
+    <div id="slide2">
+      <ul>
+        <li><a href="#slide1" class="previous"><b>Previous</b></a></li>
+        <li><a href="#pic2"><img src="double-click/pic2.jpg" alt="Wang's Chocolate"></a></li>
+        <li><a href="#pic3"><img src="double-click/pic3.jpg" alt="Cake"></a></li>
+        <li><a href="#pic4"><img src="double-click/pic4.jpg" alt="Sandwich"></a></li>
+        <li><a href="#pic5"><img src="double-click/pic5.jpg" alt="Cake"></a></li>
+        <li><a href="#pic6"><img src="double-click/pic6.jpg" alt="Fruitpies"></a></li>
+        <li><a href="#slide3" class="next"><b>Next</b></a></li>
+      </ul>
+    </div>
+
+    <div id="slide3">
+      <ul>
+        <li><a href="#slide2" class="previous"><b>Previous</b></a></li>
+        <li><a href="#pic3"><img src="double-click/pic3.jpg" alt="Cake"></a></li>
+        <li><a href="#pic4"><img src="double-click/pic4.jpg" alt="Sandwich"></a></li>
+        <li><a href="#pic5"><img src="double-click/pic5.jpg" alt="Cake"></a></li>
+        <li><a href="#pic6"><img src="double-click/pic6.jpg" alt="Fruitpies"></a></li>
+        <li><a href="#pic7"><img src="double-click/pic7.jpg" alt="Cake"></a></li>
+        <li><a href="#slide4" class="next"><b>Next</b></a></li>
+      </ul>
+    </div>
+
+    <div id="slide4">
+      <ul>
+        <li><a href="#slide3" class="previous"><b>Previous</b></a></li>
+        <li><a href="#pic4"><img src="double-click/pic4.jpg" alt="Sandwich"></a></li>
+        <li><a href="#pic5"><img src="double-click/pic5.jpg" alt="Cake"></a></li>
+        <li><a href="#pic6"><img src="double-click/pic6.jpg" alt="Fruitpies"></a></li>
+        <li><a href="#pic7"><img src="double-click/pic7.jpg" alt="Cake"></a></li>
+        <li><a href="#pic8"><img src="double-click/pic8.jpg" alt="Cake"></a></li>
+        <li><a href="#slide5" class="next"><b>Next</b></a></li>
+      </ul>
+    </div>
+
+    <div id="slide5">
+      <ul>
+        <li><a href="#slide4" class="previous"><b>Previous</b></a></li>
+        <li><a href="#pic5"><img src="double-click/pic5.jpg" alt="Cake"></a></li>
+        <li><a href="#pic6"><img src="double-click/pic6.jpg" alt="Fruitpies"></a></li>
+        <li><a href="#pic7"><img src="double-click/pic7.jpg" alt="Cake"></a></li>
+        <li><a href="#pic8"><img src="double-click/pic8.jpg" alt="Cake"></a></li>
+        <li><a href="#pic9"><img src="double-click/pic9.jpg" alt="Puff"></a></li>
+        <li><a href="#slide6" class="next"><b>Next</b></a></li>
+      </ul>
+    </div>
+
+    <div id="slide6">
+      <ul>
+        <li><a href="#slide5" class="previous"><b>Previous</b></a></li>
+        <li><a href="#pic6"><img src="double-click/pic6.jpg" alt="Fruitpies"></a></li>
+        <li><a href="#pic7"><img src="double-click/pic7.jpg" alt="Cake"></a></li>
+        <li><a href="#pic8"><img src="double-click/pic8.jpg" alt="Cake"></a></li>
+        <li><a href="#pic9"><img src="double-click/pic9.jpg" alt="Puff"></a></li>
+        <li><a href="#pic10"><img src="double-click/pic10.jpg" alt="Trees in the mist"></a></li>
+        <li><img class="blank" src="double-click/downx.png" alt="down"></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div id="fullsize">
+
+    <div id="pic1">
+      <a href="pie.html" target="_blank">
+        <img src="double-click/pic1.jpg" alt="Grandma's Lemon Meringue Pie">
+      </a>
+      <br />
+      <h1>Grandma's Lemon Meringue Pie</h1>
+      <p>Followed by some descriptive text and maybe a <a href="pie.html" target="_blank" >link</a>.You can click the picture.</p>
+    </div>
+
+    <div id="pic2"> 
+      <a href="https://www.bilibili.com/video/av51490741" target="_blank" >
+        <img src="double-click/pic2.jpg" alt="Wang's Chocolate">
+      </a>
+      <br />
+      <h1>Wang's Chocolate</h1>
+      <p>Another piece of descriptive vadio and again a <a href="https://www.bilibili.com/video/av51490741/" target="_blank" >link</a>.You also can click the picture.</p>
+    </div>
+
+    <div id="pic3">
+      <a href="https://www.wikihow.com/Make-a-Banana-Cake"  target="_blank" >
+        <img src="double-click/pic3.jpg" alt="Cake">
+      </a>
+      <br />
+      <h1>Cake</h1>
+      <p>Yet more descriptive text and maybe a <a href="https://www.wikihow.com/Make-a-Banana-Cake/" target="_blank" >link</a>.You can click the picture.</p>
+    </div>
+
+    <div id="pic4"> 
+      <a href="https://www.wikihow.com/Make-a-Ham-Sandwich" target="_blank" >
+        <img src="double-click/pic4.jpg" alt="Sandwich">
+      </a>
+      <br />
+      <h1>Sandwich</h1>
+      <p>And another line of descriptive text and maybe a <a href="https://www.wikihow.com/Make-a-Ham-Sandwich" target="_blank" >link</a>.You can click the picture.</p>
+    </div>
+
+    <div id="pic5"> 
+      <a href="https://www.wikihow.com/Make-a-Banana-Cake" target="_blank" >
+        <img src="double-click/pic5.jpg" alt="Cake">
+      </a>
+      <br />
+      <h1>Cake</h1>
+      <p>With descriptive text and maybe a <a href="https://www.wikihow.com/Make-a-Banana-Cake" target="_blank" >link</a>.You can click the picture.</p>
+    </div>
+
+    <div id="pic6"> 
+      <a href="https://www.epicurious.com/archive/holidays/summercooking/fruitpies" target="_blank">
+        <img src="double-click/pic6.jpg" alt="Fruitpies">
+      </a>
+      <br />
+      <h1>Fruitpies</h1>
+      <p>A description of the picture can go here with a <a href="https://www.epicurious.com/archive/holidays/summercooking/fruitpies" target="_blank">link</a>.You can click the picture.</p>
+    </div>
+
+    <div id="pic7"> 
+      <a href="https://www.wikihow.com/Make-a-Banana-Cake" target="_blank" >
+        <img src="double-click/pic7.jpg" alt="Cake">
+      </a>
+      <br />
+      <h1>Cake</h1>
+      <p>Descriptive text and maybe a <a href="https://www.wikihow.com/Make-a-Banana-Cake" target="_blank">link</a>.You can click the picture.</p>
+    </div>
+
+    <div id="pic8"> 
+      <a href="https://www.wikihow.com/Make-a-Banana-Cake" target="_blank">
+        <img src="double-click/pic8.jpg" alt="Cake">
+      </a>
+      <br />
+      <h1>Cake</h1>
+      <p>The text can be over as many lines as you want. The <a href="https://www.wikihow.com/Make-a-Banana-Cake">link</a> and picture can be used if you want.</p>
+    </div>
+
+    <div id="pic9"> 
+      <a href="https://www.wikihow.com/Make-Puff-Pastry" target="_blank">
+        <img src="double-click/pic9.jpg" alt="Puff">
+      </a>
+      <br />
+      <h1>Puff</h1>
+      <p>Followed by some descriptive text and maybe a <a href="https://www.wikihow.com/Make-Puff-Pastry">link</a>.You can click the picture.</p>
+    </div>
+
+    <div id="pic10"> 
+      <a href="https://www.wikihow.com/Make-Zongzi-(Chinese-Tamales)" target="_blank">
+        <img src="double-click/pic10.jpg" alt="Zongzi">
+      </a>
+      <br />
+      <h1>Zongzi</h1>
+      <p>Another piece of descriptive text and maybe a <a href="https://www.wikihow.com/Make-Zongzi-(Chinese-Tamales)" >link</a>.You can click the picture.</p>
+    </div>
+  </div>
+</div>
+<div class="icon-user"></div>
+<p id="center">Sign up / Sign in<br />This function awaits development.</p> 
+</body>
+</html>

@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1569759194 source:d:\work and study\code_work\data_struct\chapter06\listarray\listarray.cpp
+	"ListArray.hpp"
+	"Define.hpp"
+
+1569759113 d:\work and study\code_work\data_struct\chapter06\listarray\listarray.hpp
+	"Define.hpp"
+
+1569766134 d:\work and study\code_work\data_struct\chapter06\listarray\define.hpp
+	<iostream>
+
+1569759495 source:d:\work and study\code_work\data_struct\chapter06\listarray\node.cpp
+	"Node.h"
+
+1569766135 d:\work and study\code_work\data_struct\chapter06\listarray\node.h
+	"Define.hpp"
+
+1569766757 source:d:\work and study\code_work\data_struct\chapter06\listarray\main.cpp
+	<iostream>
+	"ListList.hpp"
+	"Define.hpp"
+
+1569766028 d:\work and study\code_work\data_struct\chapter06\listarray\listlist.hpp
+	"Define.hpp"
+	"Node.h"
+
+1569766782 source:d:\work and study\code_work\data_struct\chapter06\listarray\listlist.cpp
+	"ListList.hpp"
+	"Define.hpp"
+

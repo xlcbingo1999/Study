@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title> 
+<style> 
+#myDIV {
+    width: 300px;
+    height: 200px;
+    background-color: #404040;
+    border: 1px solid black;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {border-bottom-left-radius: 50px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {border-bottom-left-radius: 50px;}
+}
+</style>
+</head>
+<body>
+
+
+<div id="myDIV">
+    <p> my name</p>
+</div>
+
+
+</body>
+</html>

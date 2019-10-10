@@ -1,0 +1,148 @@
+/*
+    18342105 肖霖畅 CSS样式表
+*/
+
+body{
+    background-image:url("image/background.png");
+    margin: 0;
+    border: 0;
+    
+}
+
+#title{
+    background-image: url("image/bannerbackground.png");
+    text-align: center;
+    height: 50px;
+}
+
+h1{
+   text-align: center; 
+   font-family: Verdana, Tahoma,sans-serif;
+   font-size: 24px;
+   font-weight: bold;
+}
+
+#main{
+    font-family: Verdana, Tahoma,sans-serif;
+    border-width:4px;
+    border-style: solid;
+    border-color: gray;
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+}
+
+#left{
+    width:550px;
+    /* height:auto; */
+    float: left;
+}
+
+#left_top{
+    height: 83pt;
+    background-image: url("image/rottenbackground.png");
+    background-repeat: repeat-x;
+}
+
+
+#left_top_left{
+    font-size: 48pt;
+    color: red; 
+    font-weight: bold;
+    vertical-align: 15px;
+}
+
+#left_top_right{
+    font-size: 8pt;
+    color:white; 
+    vertical-align: 15px;
+}
+
+
+#right{
+    width:250px;
+    float: right;
+    background-color: #A2B964;
+    padding: 0;
+}
+
+dl{
+    padding-left: 10px;
+    font-family: Arial,sans-serif;
+    font-size: 8pt;
+    margin-block-start: 0em;
+}
+
+dt{
+    /* line-height: 1em; */
+    padding-top: 1em;
+    font-weight: bold;
+}
+
+#left_main_left{
+    margin-left: 2%; 
+    width: 47%;
+    float: left;
+}
+
+#left_main_right{
+    margin-right: 2%; 
+    width: 47%;
+    float: right;
+}
+
+.comment{
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    background-color: #E1D697;
+    font-size: 8pt;
+    font-weight: bold;
+    overflow: hidden; /* 把超出的隐藏 */
+    padding: 8px;
+    
+}
+
+.comment q{
+    margin:8px;
+}
+
+.comment img{
+    margin:5px;
+    float: left;
+}
+.people{
+    font-size: 8pt;
+    margin-bottom: 3em;
+}
+
+.people img{
+    float: left; 
+    padding-right: 5px;
+}
+
+#left_bottom{
+    clear: both;
+    width: 800px;
+    background-color: #A2B964;
+    text-align: center;
+    position: relative;
+
+}
+#left_bottom p{
+    font-size: 12px;
+    text-align: center;
+    margin: auto 0;
+    padding: 5px;
+}
+.link{
+    float: left;
+    position:fixed;
+    bottom:0;
+    right:0;
+}

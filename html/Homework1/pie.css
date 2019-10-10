@@ -1,0 +1,112 @@
+
+        #title_main
+        {
+            background-color: #F0F0F0;
+            font-family: "Century Gothic", "Futura" ,Verdana ,sans-serif;
+            color: #A4A400;
+            text-align:center;
+            font-size: 22pt;
+            font-weight: 900;
+            text-decoration:underline;
+            letter-spacing:0.2em;
+        }
+
+        #title_normal
+        {
+            background-color: #F0F0F0;
+            font-family: "Century Gothic", "Futura" ,Verdana ,sans-serif;
+            color: #A4A400;
+            font-size: 18pt;
+            text-decoration: underline;
+            font-weight: normal;
+            letter-spacing:0.2em;
+        }
+        #title_normal1
+        {
+            background-color: #F0F0F0;
+            font-family: "Century Gothic", "Futura" ,Verdana ,sans-serif;
+            color: #A4A400;
+            font-size: 18pt;
+            text-decoration: underline;
+            font-weight: normal;
+            letter-spacing:0.2em;
+        }
+        #title_normal2
+        {
+            background-color: #F0F0F0;
+            font-family: "Century Gothic", "Futura" ,Verdana ,sans-serif;
+            color: #A4A400;
+            font-size: 18pt;
+            text-decoration: underline;
+            font-weight: normal;
+            letter-spacing:0.2em;
+        }
+        #title_normal3
+        {
+            background-color: #F0F0F0;
+            font-family: "Century Gothic", "Futura" ,Verdana ,sans-serif;
+            color: #A4A400;
+            font-size: 18pt;
+            text-decoration: underline;
+            font-weight: normal;
+            letter-spacing:0.2em;
+        }
+
+        #main_word
+        {
+            color: #404040;
+            font-size: 11pt;
+            font-family: Georgia, Garamond,serif;
+        }        
+        #main_word2
+        {
+            color: #404040;
+            font-size: 11pt;
+            font-family: Georgia, Garamond,serif;
+        }       
+        #main_word3
+        {
+            color: #404040;
+            font-size: 11pt;
+            font-family: Georgia, Garamond,serif;
+        }        
+        #line_height
+        {
+            line-height:15pt;
+        }
+        #line_height1
+        {
+            line-height:15pt;
+        }
+        #line_height2
+        {
+            line-height:15pt;
+        }
+        #ingredients_par
+        {
+            padding-left: 1em;
+        }
+        #yellow_block
+        {
+            margin-left: 50pt;
+            margin-right: 50pt;
+            background-color: #ffffc8;
+            font-family: Georgia, Garamond,serif;
+        }
+        #yellow_block1
+        {
+            margin-left: 50pt;
+            margin-right: 50pt;
+            background-color: #ffffc8;
+            font-family: Georgia, Garamond,serif;
+        }
+        ul li
+        {
+            background-image:url(image/pie_icon.gif);
+            background-repeat:no-repeat;
+            padding-left:20pt;
+        }
+        a
+        {
+            color: #A4A400;
+        }
